@@ -1,8 +1,9 @@
 from pydantic import BaseModel
 class nvr_data_body(BaseModel):
-    ip: str
-    port:int
-    username:str
-    password :str
-    brand_name:str
-    model_name:list
+    nvr_name: str
+    nvr_brand_name:str
+    nvr_model_name:str
+    nvr_ip:str
+    nvr_port:str
+    nvr_user_name:str
+    nvr_password:str

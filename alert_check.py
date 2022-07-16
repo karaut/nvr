@@ -71,8 +71,7 @@ class nvr:
         new_responce = responce.text.split(".")
         for i in new_responce:
             data_list.append(i.split("="))
-
-        # print(final_data_list)
+            
         for i in data_list:
             if i[0] == "TotalBytes":
                 data_dict[i[0]] = i[1]

@@ -34,10 +34,10 @@ mp = {
     }
 }
 
-name = "Kimaya"
+name1 = "Kimaya"
 bname = "brand name"
 mversion = "model version 2"
 
 func = mp[bname][mversion]
-objB = func(name=name)
+objB = func(name=name1)
 objB.start()
